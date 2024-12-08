@@ -1,0 +1,98 @@
+[
+  {
+    "title": "The Milkmaid",
+    "description": "A maidservant pours milk, entirely absorbed in her work. Except for the stream of milk, everything else is still. Vermeer took this simple everyday activity and made it the subject of an impressive painting – the woman stands like a statue in the brightly lit room. Vermeer also had an eye for how light by means of hundreds of colourful dots plays over the surface of objects.",
+    "imgUrl": "https://iiif.micr.io/QkOGy/39,43,4541,5040/%5E1024,/0/default.webp",
+    "authorId": 1
+  },
+  {
+    "title": "Girl with a Pearl Earring",
+    "description": "One of Vermeer's most famous works, depicting a girl with an enigmatic expression, wearing a striking pearl earring.",
+    "imgUrl": "https://avatars.mds.yandex.net/i?id=f30769b9137cd9c0e9f7648b128a7e41_l-4343199-images-thumbs&n=13",
+    "authorId": 1
+  },
+  {
+    "title": "Mona Lisa",
+    "description": "Leonardo da Vinci's masterpiece, a portrait of a woman with a mysterious smile, known for its intricate detail and atmospheric background.",
+    "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/540px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
+    "authorId": 2
+  },
+  {
+    "title": "The Last Supper",
+    "description": "A depiction of Jesus and his disciples during the Last Supper, highlighting Da Vinci's mastery of composition and expression.",
+    "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Leonardo_da_Vinci_%281452-1519%29_-_The_Last_Supper_%281495-1498%29.jpg/880px-Leonardo_da_Vinci_%281452-1519%29_-_The_Last_Supper_%281495-1498%29.jpg",
+    "authorId": 2
+  },
+  {
+    "title": "Starry Night",
+    "description": "One of Van Gogh's most iconic works, illustrating a swirling night sky filled with stars over a quiet village.",
+    "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/700px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+    "authorId": 3
+  },
+  {
+    "title": "Sunflowers",
+    "description": "A vibrant still-life series by Van Gogh, showcasing his love for bold colors and thick brushstrokes.",
+    "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Vincent_Willem_van_Gogh_127.jpg/540px-Vincent_Willem_van_Gogh_127.jpg",
+    "authorId": 3
+  },
+  {
+    "title": "Water Lilies",
+    "description": "Claude Monet's impressionistic masterpiece that captures the play of light and reflection on water.",
+    "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Claude_Monet_-_The_Water_Lilies_-_Setting_Sun_-_Google_Art_Project.jpg/800px-Claude_Monet_-_The_Water_Lilies_-_Setting_Sun_-_Google_Art_Project.jpg",
+    "authorId": 4
+  },
+  {
+    "title": "Impression, Sunrise",
+    "description": "The painting that gave Impressionism its name, depicting a misty morning harbor with a rising sun.",
+    "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Monet_-_Impression%2C_Sunrise.jpg/600px-Monet_-_Impression%2C_Sunrise.jpg",
+    "authorId": 4
+  },
+  {
+    "title": "Guernica",
+    "description": "Pablo Picasso's large-scale mural that depicts the horrors of war with a striking and chaotic composition.",
+    "imgUrl": "https://upload.wikimedia.org/wikipedia/en/7/74/PicassoGuernica.jpg",
+    "authorId": 5
+  },
+  {
+    "title": "Les Demoiselles d'Avignon",
+    "description": "A revolutionary piece by Picasso that broke traditional perspective and launched Cubism.",
+    "imgUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Les_Demoiselles_d%27Avignon.jpg/600px-Les_Demoiselles_d%27Avignon.jpg",
+    "authorId": 5
+  },
+  {
+    "title": "The Creation of Adam",
+    "description": "A section of Michelangelo's Sistine Chapel ceiling fresco, depicting God giving life to Adam.",
+    "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Michelangelo_-_Creation_of_Adam_%28cropped%29.jpg/540px-Michelangelo_-_Creation_of_Adam_%28cropped%29.jpg",
+    "authorId": 6
+  },
+  {
+    "title": "David",
+    "description": "Michelangelo's iconic marble sculpture, representing the biblical hero David in perfect Renaissance proportions.",
+    "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/David_Art_Wales_in_his_Darlinghurst_studio.jpg/440px-David_Art_Wales_in_his_Darlinghurst_studio.jpg",
+    "authorId": 6
+  },
+  {
+    "title": "The Persistence of Memory",
+    "description": "Salvador Dalí's surrealistic depiction of melting clocks in a dreamlike landscape.",
+    "imgUrl": "https://upload.wikimedia.org/wikipedia/en/d/dd/The_Persistence_of_Memory.jpg",
+    "authorId": 7
+  },
+  {
+    "title": "Swans Reflecting Elephants",
+    "description": "A surreal painting by Dalí that uses reflections to create a double image of swans and elephants.",
+    "imgUrl": "https://upload.wikimedia.org/wikipedia/en/f/f6/Swans_reflecting_elephants.jpg",
+    "authorId": 7
+  },
+  {
+    "title": "The Night Watch",
+    "description": "A monumental group portrait by Rembrandt, known for its dramatic use of light and shadow.",
+    "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/The_Night_Watch_-_HD.jpg/760px-The_Night_Watch_-_HD.jpg",
+    "authorId": 8
+  },
+  {
+    "title": "The Anatomy Lesson of Dr. Nicolaes Tulp",
+    "description": "A group portrait showcasing Rembrandt's mastery of composition and lighting.",
+    "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Rembrandt_-_The_Anatomy_Lesson_of_Dr_Nicolaes_Tulp.jpg/540px-Rembrandt_-_The_Anatomy_Lesson_of_Dr_Nicolaes_Tulp.jpg",
+    "authorId": 8
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Johannes Vermeer",
+    "description": "Голландский художник, мастер жанровой живописи эпохи барокко, известен своими работами с эффектом света и реалистичной передачей деталей.",
+    "imgUrl": "https://example.com/images/vermeer.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Leonardo da Vinci",
+    "description": "Выдающийся итальянский художник эпохи Возрождения, известный картинами «Мона Лиза» и «Тайная вечеря», а также многочисленными изобретениями.",
+    "imgUrl": "https://example.com/images/davinci.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Vincent van Gogh",
+    "description": "Голландский постимпрессионист, чьи яркие и эмоциональные картины, такие как «Звёздная ночь», оставили значительный след в искусстве.",
+    "imgUrl": "https://example.com/images/vangogh.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Claude Monet",
+    "description": "Французский художник и основоположник импрессионизма, знаменит своими пейзажами и сериями картин, такими как «Кувшинки».",
+    "imgUrl": "https://example.com/images/monet.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Pablo Picasso",
+    "description": "Испанский художник, один из основателей кубизма, известен своими картинами «Герника» и «Авиньонские девицы».",
+    "imgUrl": "https://example.com/images/picasso.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Michelangelo Buonarroti",
+    "description": "Итальянский скульптор, художник и архитектор эпохи Возрождения, создатель росписей Сикстинской капеллы.",
+    "imgUrl": "https://example.com/images/michelangelo.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Salvador Dalí",
+    "description": "Испанский сюрреалистический художник, известный своими странными и захватывающими воображение образами, такими как «Постоянство памяти».",
+    "imgUrl": "https://example.com/images/dali.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Rembrandt van Rijn",
+    "description": "Голландский художник эпохи барокко, мастер света и тени, известен портретами и историческими сценами.",
+    "imgUrl": "https://example.com/images/rembrandt.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Frida Kahlo",
+    "description": "Мексиканская художница, известная своими автопортретами и яркими, символичными произведениями.",
+    "imgUrl": "https://example.com/images/kahlo.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Gustav Klimt",
+    "description": "Австрийский художник, известный своими декоративными картинами и использованием золотых элементов, такими как «Поцелуй».",
+    "imgUrl": "https://example.com/images/klimt.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Edvard Munch",
+    "description": "Норвежский художник, автор знаменитой картины «Крик», выразившей экзистенциальный страх человека.",
+    "imgUrl": "https://example.com/images/munch.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Henri Matisse",
+    "description": "Французский художник и основатель фовизма, известный своими яркими цветами и экспрессивной манерой письма.",
+    "imgUrl": "https://example.com/images/matisse.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Édouard Manet",
+    "description": "Французский художник, связующий академическую живопись и импрессионизм, автор картин «Завтрак на траве» и «Олимпия».",
+    "imgUrl": "https://example.com/images/manet.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Caravaggio",
+    "description": "Итальянский мастер барокко, известный драматическими композициями и эффектами светотени.",
+    "imgUrl": "https://example.com/images/caravaggio.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Andy Warhol",
+    "description": "Американский художник и ключевая фигура поп-арта, создатель культовых работ, таких как «Банка супа Кэмпбелл».",
+    "imgUrl": "https://example.com/images/warhol.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Paul Cézanne",
+    "description": "Французский постимпрессионист, чьи картины заложили основу для кубизма и модернизма.",
+    "imgUrl": "https://example.com/images/cezanne.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Georgia O'Keeffe",
+    "description": "Американская художница, известная своими крупными цветочными композициями и пейзажами.",
+    "imgUrl": "https://example.com/images/okeeffe.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Jean-Michel Basquiat",
+    "description": "Американский художник, представитель неоэкспрессионизма, известный своими энергичными и символичными произведениями.",
+    "imgUrl": "https://example.com/images/basquiat.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Jan van Eyck",
+    "description": "Фламандский художник эпохи раннего Возрождения, мастер детализации и масла, известный «Портретом четы Арнольфини».",
+    "imgUrl": "https://example.com/images/vaneyck.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Jackson Pollock",
+    "description": "Американский художник-абстракционист, известный своей техникой капельной живописи.",
+    "imgUrl": "https://example.com/images/pollock.jpg"
+  }
+]
