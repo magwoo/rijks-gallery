@@ -20,7 +20,7 @@ const props = defineProps<Props>();
       <h2 class="text-2xl text-neutral font-playfair font-bold">
         {{ props.title }}
       </h2>
-      <UButton class="hidden lg:flex">Войти</UButton>
+      <UButton type="primary" class="hidden lg:flex">Войти</UButton>
       <button class="flex lg:hidden text-2xl">=</button>
     </nav>
     <div class="h-0.5 w-full bg-neutral/10"></div>

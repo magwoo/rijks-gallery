@@ -1,11 +1,12 @@
 <script setup lang="ts">
 import UNav from "@/components/UNav.vue";
-import ArtInfo from "@/components/ArtInfo.vue";
+import Gallery from "@/components/gallery/Gallery.vue";
 </script>
 
 <template>
   <UNav title="Галерея" />
-  <ArtInfo
+  <Gallery />
+  <!-- <ArtInfo
     title="123"
     :info="{
       author: '123',
@@ -14,5 +15,5 @@ import ArtInfo from "@/components/ArtInfo.vue";
       materials: ['12', '34'],
     }"
     description="asd"
-  />
+  /> -->
 </template>
