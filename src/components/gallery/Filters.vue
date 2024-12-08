@@ -57,7 +57,7 @@ watch(
       <UButton
         @click="isShowFilter = !isShowFilter"
         class-name="grow font-medium"
-        >Фильтры <span v-if="isShowFilter">↑</span
+        >Фильтры({{ groups.length }}) <span v-if="isShowFilter">↑</span
         ><span v-if="!isShowFilter">↓</span></UButton
       >
     </div>
