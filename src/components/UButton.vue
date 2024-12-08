@@ -15,7 +15,7 @@ const styles = {
 </script>
 
 <template>
-  <button class="px-8 py-1" :class="styles[type] + className">
+  <button class="px-8 py-1 outline-none" :class="styles[type] + className">
     <slot></slot>
   </button>
 </template>

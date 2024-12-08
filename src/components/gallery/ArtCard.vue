@@ -13,7 +13,7 @@ const props = defineProps<Props>();
   >
     <img :src='props.imgUrl' class="relative group-hover:brightness-105 bg-stone-100 z-10 transition-all"></img>
     <div
-      class="absolute duration-200 inset-0 group-hover:-inset-2 group-hover:-bottom-5 opacity-0 group-hover:opacity-100 bg-stone-500/10 transition-all"
+      class="absolute duration-200 inset-0 group-hover:-inset-2 group-hover:-bottom-6 opacity-0 group-hover:opacity-100 bg-stone-700/10 transition-all"
     ></div>
     <span
       class="absolute -bottom-5 text-sm text-neutral/50 z-10 group-hover:text-neutral transition-colors"
