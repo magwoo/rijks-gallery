@@ -13,6 +13,7 @@ const types = ["Живопись", "Графика", "Скульптуры", "Д
 const type = ref<string>(types[0]);
 const groups = ref<string[]>([]);
 const search = ref<string>("");
+const isShowFilter = ref<boolean>(false);
 
 const filters = defineModel<Model>();
 
@@ -29,12 +30,22 @@ watch(
 </script>
 
 <template>
-  <div class="flex flex-col gap-6">
-    <div class="flex gap-6">
-      <div class="flex gap-4">
+  <div class="flex flex-col gap-4">
+    <div class="bg-neutral/10 grow flex items-center px-3">
+      <SearchIcon />
+      <input
+        name="search-query"
+        type="text"
+        placeholder="Найти.."
+        v-model="search"
+        class="bg-transparent placeholder:text-neutral/50 font-medium outline-none px-2 py-1 grow text-neutral"
+      />
+    </div>
+    <div class="flex gap-8 flex-col lg:flex-row">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 grow">
         <UButton
           v-for="t in types"
-          class-name="text-lg font-medium"
+          class-name="font-medium"
           :type="type == t ? 'primary' : 'basic'"
           @click="
             type = t;
@@ -43,18 +54,14 @@ watch(
           >{{ t }}</UButton
         >
       </div>
-      <div class="bg-neutral/10 grow flex items-center px-2">
-        <SearchIcon />
-        <input
-          name="search-query"
-          type="text"
-          placeholder="Найти.."
-          v-model="search"
-          class="bg-transparent placeholder:text-neutral/50 font-medium outline-none px-2 py-1 grow text-neutral"
-        />
-      </div>
+      <UButton
+        @click="isShowFilter = !isShowFilter"
+        class-name="grow font-medium"
+        >Фильтры <span v-if="isShowFilter">↑</span
+        ><span v-if="!isShowFilter">↓</span></UButton
+      >
     </div>
-    <div class="flex gap-4 flex-wrap">
+    <div v-if="isShowFilter" class="flex gap-4 flex-wrap">
       <UButton
         v-for="i in Math.round(type.length)"
         class-name="grow"
