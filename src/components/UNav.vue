@@ -12,7 +12,7 @@ const props = defineProps<Props>();
 <template>
   <section class="flex flex-col gap-4 w-full">
     <nav class="flex items-center justify-between w-full">
-      <div class="flex gap-8">
+      <div class="lg:flex gap-8 hidden">
         <ULink to="/">Главная</ULink>
         <ULink to="/gallery">Галерея</ULink>
         <ULink to="/authors">Авторы</ULink>
@@ -20,7 +20,8 @@ const props = defineProps<Props>();
       <h2 class="text-2xl text-neutral font-playfair font-bold">
         {{ props.title }}
       </h2>
-      <UButton>Войти</UButton>
+      <UButton class="hidden lg:flex">Войти</UButton>
+      <button class="flex lg:hidden text-2xl">=</button>
     </nav>
     <div class="h-0.5 w-full bg-neutral/10"></div>
   </section>

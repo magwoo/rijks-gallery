@@ -28,9 +28,9 @@ function computeImageClass(index: number): string {
   }
 
   if (index === 0) {
-    className += props.isEven ? "rounded-tl-[160px] " : "rounded-bl-[160px] ";
+    className += props.isEven ? "rounded-tl-[50%] " : "rounded-bl-[50%] ";
   } else if (index === props.images.length - 1) {
-    className += props.isEven ? "rounded-br-[160px] " : "rounded-tr-[160px] ";
+    className += props.isEven ? "rounded-br-[50%] " : "rounded-tr-[50%] ";
   }
 
   return className;
@@ -39,11 +39,11 @@ function computeImageClass(index: number): string {
 
 <template>
   <section class="flex flex-col gap-8 w-full">
-    <div class="flex w-full items-end">
-      <h1 class="text-7xl font-playfair font-bold text-accent w-1/2">
+    <div class="flex flex-col lg:flex-row w-full items-end gap-2">
+      <h1 class="lg:text-7xl text-5xl font-playfair font-bold text-accent lg:w-1/2">
         {{ props.title }}
       </h1>
-      <p class="text-neutral/50 font-medium leading-relaxed text-lg w-1/2">
+      <p class="text-neutral/50 font-medium leading-relaxed lg:text-lg lg:w-1/2">
         {{ props.description }}
       </p>
     </div>
@@ -51,6 +51,7 @@ function computeImageClass(index: number): string {
       <a
         v-for="(image, index) in props.images"
         :href="image.link"
+        :class="{'hidden lg:flex': index == 1, 'flex': index != 1}"
         class="group grow flex flex-col gap-4 items-center"
       >
         <img
