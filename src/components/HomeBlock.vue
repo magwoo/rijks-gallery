@@ -39,11 +39,15 @@ function computeImageClass(index: number): string {
 
 <template>
   <section class="flex flex-col gap-8 w-full">
-    <div class="flex flex-col lg:flex-row w-full items-end gap-2">
-      <h1 class="lg:text-7xl text-5xl font-playfair font-bold text-accent lg:w-1/2">
+    <div class="flex flex-col lg:flex-row w-full lg:items-end gap-2">
+      <h1
+        class="lg:text-7xl text-5xl font-playfair font-bold text-accent lg:w-1/2"
+      >
         {{ props.title }}
       </h1>
-      <p class="text-neutral/50 font-medium leading-relaxed lg:text-lg lg:w-1/2">
+      <p
+        class="text-neutral/50 font-medium leading-relaxed lg:text-lg lg:w-1/2"
+      >
         {{ props.description }}
       </p>
     </div>
@@ -51,8 +55,8 @@ function computeImageClass(index: number): string {
       <a
         v-for="(image, index) in props.images"
         :href="image.link"
-        :class="{'hidden lg:flex': index == 1, 'flex': index != 1}"
-        class="group grow flex flex-col gap-4 items-center"
+        :class="{ 'hidden lg:flex': index == 1, flex: index != 1 }"
+        class="group grow flex flex-col gap-2 lg:gap-4 items-center"
       >
         <img
           class="object-cover"
@@ -60,15 +64,19 @@ function computeImageClass(index: number): string {
           :src="image.imgUrl"
           alt="изображение"
         />
-        <h3 class="font-playfair text-2xl font-semibold">{{ image.name }}</h3>
+        <h3 class="font-playfair text-lg lg:text-2xl font-semibold">
+          {{ image.name }}
+        </h3>
         <span
-          class="text-neutral/50 font-medium group-hover:text-neutral group-hover:underline transition-colors"
+          class="text-neutral/50 text-sm lg:text-base font-medium group-hover:text-neutral group-hover:underline transition-colors"
           >Подробнее →</span
         >
       </a>
-      <div class="absolute -right-10 flex h-full items-center pb-24">
+      <div
+        class="absolute -right-4 lg:-right-10 flex h-full items-center pb-24"
+      >
         <a
-          class="flex justify-center items-center text-3xl bg-primary-500 hover:bg-primary-600 rounded-full text-white size-20 transition-colors"
+          class="flex justify-center items-center text-xl lg:text-3xl bg-primary-500 hover:bg-primary-600 rounded-full text-white size-12 lg:size-20 transition-colors"
           :href="props.categoryHref"
           >--></a
         >
