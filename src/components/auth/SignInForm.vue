@@ -4,15 +4,17 @@ import UButton from "../UButton.vue";
 import UInput from "../UInput.vue";
 import { ref } from "vue";
 
-const emit = defineEmits(["signup"]);
+const emit = defineEmits(["signup", "close"]);
 
+const authError = ref<string>("");
 const login = ref<string>("");
 const pass = ref<string>("");
 
-const { checkAuth } = useAuthState();
+const { auth } = useAuthState();
 
 function signin() {
-  console.log(checkAuth(login.value, pass.value));
+  if (auth(login.value, pass.value)) emit("close");
+  authError.value = "неверные логин/почта или пароль";
 }
 </script>
 
@@ -23,8 +25,8 @@ function signin() {
     >
       Авторизация
     </h1>
-    <UInput label="Логин / Почта" v-model="login" />
-    <UInput label="Пароль" type="password" v-model="pass" />
+    <UInput label="Логин / Почта" v-model="login" :error="authError" />
+    <UInput label="Пароль" type="password" v-model="pass" :error="authError" />
   </div>
   <div class="flex flex-col md:flex-row gap-3 md:gap-6">
     <UButton @click="emit('signup')" class-name="text-lg py-2"

@@ -25,7 +25,11 @@ const authType = ref<AuthType>("signin");
       @click.stop
       class="flex flex-col justify-between gap-24 p-6 mx-8 w-[540px] bg-background"
     >
-      <SignInForm v-if="authType == 'signin'" @signup="authType = 'signup'" />
+      <SignInForm
+        v-if="authType == 'signin'"
+        @signup="authType = 'signup'"
+        @close="emit('close')"
+      />
       <SignUpForm v-else @signin="authType = 'signin'" />
     </section>
   </div>

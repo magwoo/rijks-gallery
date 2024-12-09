@@ -51,6 +51,8 @@ function signup() {
     email: email.value,
     pass: pass.value,
   });
+
+  emit("signin");
 }
 </script>
 

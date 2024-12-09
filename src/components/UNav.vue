@@ -3,6 +3,7 @@ import ULink from "./ULink.vue";
 import UButton from "./UButton.vue";
 import AuthForm from "./auth/AuthModal.vue";
 import { ref } from "vue";
+import { useAuthState } from "@/states/auth";
 
 interface Props {
   title: string;
@@ -10,6 +11,8 @@ interface Props {
 
 const props = defineProps<Props>();
 const isAuthOpen = ref<boolean>(false);
+
+const { currentAuth } = useAuthState();
 </script>
 
 <template>
@@ -24,7 +27,21 @@ const isAuthOpen = ref<boolean>(false);
       <h2 class="text-2xl text-neutral font-playfair font-bold">
         {{ props.title }}
       </h2>
-      <UButton @click="isAuthOpen = true" type="primary" class="hidden lg:flex"
+      <RouterLink
+        v-if="currentAuth()"
+        to="/profile"
+        class="flex gap-3 items-center group"
+      >
+        <span class="text-neutral/75 group-hover:text-neutral font-medium">{{
+          currentAuth()
+        }}</span>
+        <div class="bg-stone-200 rounded-full size-8" />
+      </RouterLink>
+      <UButton
+        v-else
+        @click="isAuthOpen = true"
+        type="primary"
+        class="hidden lg:flex"
         >Войти</UButton
       >
       <button class="flex lg:hidden text-2xl">=</button>
