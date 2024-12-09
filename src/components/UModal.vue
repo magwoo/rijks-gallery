@@ -16,7 +16,7 @@ const props = defineProps<Props>();
     <div
       v-if="model"
       @click="model = false"
-      class="fixed z-50 top-0 left-0 backdrop-blur-sm w-full h-screen bg-black/35 transition duration-200"
+      class="fixed z-50 top-0 left-0 backdrop-blur-sm w-full h-svh bg-black/35 transition duration-200"
       :class="props.class"
     >
       <slot></slot></div
