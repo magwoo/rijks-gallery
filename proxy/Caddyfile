@@ -1,0 +1,5 @@
+rijks.{$PROXY_DOMAIN} {
+    root * /web/client
+    try_files {path} index.html
+    file_server
+}

@@ -1,0 +1,14 @@
+services:
+  proxy:
+    container_name: rijks-proxy
+    restart: always
+    image: ${IMAGE_REGISTRY:-ghcr.io}/magwoo/rijks-proxy:latest
+    build:
+      context: ../
+      dockerfile: proxy/Dockerfile
+    ports:
+      - 8080:443
+    environment:
+      PROXY_DOMAIN: travel-content
+    volumes:
+      - ./data/caddy:/data/caddy
