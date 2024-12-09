@@ -6,6 +6,7 @@ import Filters from "@/components/authors/Filters.vue";
 import { ref, watch } from "vue";
 import Authors from "@/assets/authors.json";
 import Arts from "@/assets/arts.json";
+import AuthForm from "@/components/auth/AuthForm.vue";
 
 const sourceAuthors = Authors;
 const artUrls = Arts;
@@ -18,10 +19,13 @@ watch(filters, () => {
     return a.name.toLowerCase().includes(filters.value.search.toLowerCase());
   });
 });
+
+const a = ref<boolean>(true);
 </script>
 
 <template>
   <UNav title="Авторы" />
+  <button @click="a = true">open</button>
   <section class="w-full flex flex-col gap-8">
     <Filters v-model="filters" />
     <AuthorBlock
@@ -33,5 +37,6 @@ watch(filters, () => {
         artUrls.filter((a) => a.authorId == author.id).map((a) => a.imgUrl)
       "
     />
+    <AuthForm @close="a = false" :open="a" />
   </section>
 </template>
