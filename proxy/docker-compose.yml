@@ -7,8 +7,6 @@ services:
       context: ../
       dockerfile: proxy/Dockerfile
     ports:
-      - 8080:443
-    environment:
-      PROXY_DOMAIN: travel-content
+      - 8080:80
     volumes:
       - ./data/caddy:/data/caddy
