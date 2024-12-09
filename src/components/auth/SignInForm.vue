@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { useAuthState } from "@/states/auth";
 import UButton from "../UButton.vue";
 import UInput from "../UInput.vue";
 import { ref } from "vue";
@@ -7,6 +8,12 @@ const emit = defineEmits(["signup"]);
 
 const login = ref<string>("");
 const pass = ref<string>("");
+
+const { checkAuth } = useAuthState();
+
+function signin() {
+  console.log(checkAuth(login.value, pass.value));
+}
 </script>
 
 <template>
@@ -23,6 +30,8 @@ const pass = ref<string>("");
     <UButton @click="emit('signup')" class-name="text-lg py-2"
       >Регистрация</UButton
     >
-    <UButton type="primary" class-name="grow text-lg py-2">Войти</UButton>
+    <UButton @click="signin" type="primary" class-name="grow text-lg py-2"
+      >Войти</UButton
+    >
   </div>
 </template>

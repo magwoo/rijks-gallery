@@ -2,6 +2,7 @@
 import { ref } from "vue";
 import UButton from "../UButton.vue";
 import UInput from "../UInput.vue";
+import { useAuthState } from "@/states/auth";
 
 const emit = defineEmits(["signin"]);
 
@@ -15,19 +16,23 @@ const email = ref<string>("");
 const pass = ref<string>("");
 const rePass = ref<string>("");
 
+const { createAccount, isEmailExists, isLoginExists } = useAuthState();
+
 function check() {
   if (login.value.length < 4) loginError.value = "не менее 4 символов";
+  else if (isLoginExists(login.value)) loginError.value = "логин занят";
   else loginError.value = "";
 
   if (!email.value.includes("@")) emailError.value = "должна содержать '@'";
   else if (!email.value.includes("."))
     emailError.value = "должна содержать точку";
+  else if (isEmailExists(email.value))
+    emailError.value = "аккаунт с такой почтой уже существует";
   else emailError.value = "";
 
-  if (pass.value.length < 6) passError.value = "не менее 6 символов";
-  else passError.value = "";
-  if (rePass.value != pass.value) rePassError.value = "пароли не совпадают";
-  else rePassError.value = "";
+  passError.value = pass.value.length < 6 ? "не менее 6 символов" : "";
+
+  rePassError.value = rePass.value != pass.value ? "пароли не совпадают" : "";
 }
 
 function signup() {
@@ -40,6 +45,12 @@ function signup() {
     rePassError.value
   )
     return;
+
+  createAccount({
+    login: login.value,
+    email: email.value,
+    pass: pass.value,
+  });
 }
 </script>
 
