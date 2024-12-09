@@ -16,7 +16,7 @@ const { currentAuth } = useAuthState();
 </script>
 
 <template>
-  <AuthForm :open="isAuthOpen" @close="isAuthOpen = false" />
+  <AuthForm v-model="isAuthOpen" @close="isAuthOpen = false" />
   <section class="flex flex-col gap-4 w-full">
     <nav class="flex items-center justify-between w-full">
       <div class="lg:flex gap-8 hidden">
