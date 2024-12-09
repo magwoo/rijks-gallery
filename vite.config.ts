@@ -4,6 +4,7 @@ import path from "path";
 
 export default defineConfig({
   plugins: [vue()],
+  base: "/rijks-gallery/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
