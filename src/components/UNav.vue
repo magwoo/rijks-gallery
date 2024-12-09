@@ -4,6 +4,7 @@ import UButton from "./UButton.vue";
 import AuthForm from "./auth/AuthModal.vue";
 import { ref } from "vue";
 import { useAuthState } from "@/states/auth";
+import USidebar from "./USidebar.vue";
 
 interface Props {
   title: string;
@@ -11,15 +12,21 @@ interface Props {
 
 const props = defineProps<Props>();
 const isAuthOpen = ref<boolean>(false);
+const isSidebarOpen = ref<boolean>(false);
 
 const { currentAuth } = useAuthState();
 </script>
 
 <template>
-  <AuthForm v-model="isAuthOpen" @close="isAuthOpen = false" />
+  <AuthForm v-model="isAuthOpen" />
+  <USidebar
+    v-model="isSidebarOpen"
+    @open-auth="isAuthOpen = true"
+    :title="props.title"
+  />
   <section class="flex flex-col gap-4 w-full">
     <nav class="flex items-center justify-between w-full">
-      <div class="lg:flex gap-8 hidden">
+      <div class="hidden lg:flex gap-8">
         <ULink to="/">Главная</ULink>
         <ULink to="/gallery">Галерея</ULink>
         <ULink to="/authors">Авторы</ULink>
@@ -30,7 +37,7 @@ const { currentAuth } = useAuthState();
       <RouterLink
         v-if="currentAuth()"
         to="/profile"
-        class="flex gap-3 items-center group"
+        class="hidden lg:flex gap-3 items-center group"
       >
         <span class="text-neutral/75 group-hover:text-neutral font-medium">{{
           currentAuth()
@@ -44,7 +51,9 @@ const { currentAuth } = useAuthState();
         class="hidden lg:flex"
         >Войти</UButton
       >
-      <button class="flex lg:hidden text-2xl">=</button>
+      <button @click="isSidebarOpen = true" class="flex lg:hidden text-2xl">
+        =
+      </button>
     </nav>
     <div class="h-0.5 w-full bg-neutral/10"></div>
   </section>

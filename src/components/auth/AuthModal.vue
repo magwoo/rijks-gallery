@@ -12,7 +12,7 @@ const authType = ref<AuthType>("signin");
 </script>
 
 <template>
-  <UModal v-model="model">
+  <UModal v-model="model" class="flex items-center justify-center pb-[15vh]">
     <section
       @click.stop
       class="flex flex-col justify-between gap-24 p-6 mx-8 w-[540px] bg-background"
