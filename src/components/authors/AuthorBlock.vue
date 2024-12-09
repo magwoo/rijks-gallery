@@ -12,20 +12,20 @@ const props = defineProps<Props>();
 </script>
 
 <template>
-  <section class="flex-col w-full">
+  <section class="flex-col w-full max-w-[400px] lg:max-w-full">
     <span class="text-2xl font-playfair text-neutral/75 font-semibold">{{
       props.fullName
     }}</span>
-    <div class="flex gap-6 overflow-clip">
+    <div class="flex gap-6 overflow-clip h-60 lg:h-80">
       <img
         :src="props.previewUrl"
-        class="aspect-square grow h-80 object-cover bg-stone-200/75"
+        class="aspect-square w-2/3 lg:h-80 lg:w-auto object-cover bg-stone-200/75"
       />
       <div class="flex flex-col gap-4 w-full">
-        <div class="flex gap-4">
-          <img v-for="url in artUrls.filter((_, i) => i < 3)" :src='url' class="h-52 object-cover grow bg-stone-200/75"></img>
+        <div class="flex flex-col lg:flex-row gap-4">
+          <img v-for="url in artUrls.filter((_, i) => i < 3)" :src='url' class="h-28 lg:h-52 object-cover grow bg-stone-200/75"></img>
         </div>
-        <div class="flex gap-4">
+        <div class="hidden lg:flex gap-4">
           <div
             class="flex items-center justify-center h-24 basis-1/3 bg-stone-200/75"
           >

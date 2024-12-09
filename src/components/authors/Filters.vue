@@ -30,7 +30,7 @@ watch(
 </script>
 
 <template>
-  <div class="flex flex-col gap-4">
+  <div class="flex flex-col gap-4 w-full">
     <div class="bg-neutral/10 grow flex items-center px-3">
       <SearchIcon />
       <input
