@@ -6,10 +6,34 @@
     "authorId": 1
   },
   {
+    "title": "View of Delft",
+    "description": "A serene cityscape by Vermeer, showcasing his mastery of light and color in an outdoor setting.",
+    "imgUrl": "https://avatars.mds.yandex.net/get-entity_search/69916/120498521/SUx182_2x",
+    "authorId": 1
+  },
+  {
+    "title": "The Allegory of Painting",
+    "description": "A symbolic depiction of an artist in his studio, believed to be one of Vermeer's most intricate works.",
+    "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Jan_Vermeer_-_The_Art_of_Painting_-_Google_Art_Project.jpg/500px-Jan_Vermeer_-_The_Art_of_Painting_-_Google_Art_Project.jpg",
+    "authorId": 1
+  },
+  {
     "title": "Girl with a Pearl Earring",
     "description": "One of Vermeer's most famous works, depicting a girl with an enigmatic expression, wearing a striking pearl earring.",
     "imgUrl": "https://avatars.mds.yandex.net/i?id=f30769b9137cd9c0e9f7648b128a7e41_l-4343199-images-thumbs&n=13",
     "authorId": 1
+  },
+  {
+    "title": "Vitruvian Man",
+    "description": "A study of human anatomy and proportion by Leonardo da Vinci, combining art and science.",
+    "imgUrl": "https://avatars.mds.yandex.net/i?id=38ace23345ca073e114faf77f1b364dd_l-5617472-images-thumbs&n=13",
+    "authorId": 2
+  },
+  {
+    "title": "Lady with an Ermine",
+    "description": "A portrait of Cecilia Gallerani, exemplifying Leonardo's ability to capture personality and grace.",
+    "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Leonardo_da_Vinci_046.jpg/548px-Leonardo_da_Vinci_046.jpg",
+    "authorId": 2
   },
   {
     "title": "Mona Lisa",
@@ -27,6 +51,18 @@
     "title": "Starry Night",
     "description": "One of Van Gogh's most iconic works, illustrating a swirling night sky filled with stars over a quiet village.",
     "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/700px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+    "authorId": 3
+  },
+  {
+    "title": "Irises",
+    "description": "A vibrant depiction of blooming irises, showing Van Gogh's fascination with nature's beauty.",
+    "imgUrl": "https://avatars.mds.yandex.net/i?id=7c1f320606227df06e004e006c96feba3002c762-3675159-images-thumbs&n=13",
+    "authorId": 3
+  },
+  {
+    "title": "Wheatfield with Crows",
+    "description": "A dark, emotional painting by Van Gogh, often associated with his struggles.",
+    "imgUrl": "https://avatars.mds.yandex.net/i?id=ff3a4587ccdba5a2170c956bced990a8_l-4778614-images-thumbs&n=13",
     "authorId": 3
   },
   {
@@ -48,6 +84,30 @@
     "authorId": 4
   },
   {
+    "title": "Rouen Cathedral Series",
+    "description": "A series of paintings by Monet capturing Rouen Cathedral under different light conditions.",
+    "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/RouenCathedral_Monet_1894.jpg/500px-RouenCathedral_Monet_1894.jpg",
+    "authorId": 4
+  },
+  {
+    "title": "The Japanese Bridge",
+    "description": "An iconic view of Monet's garden in Giverny, featuring a delicate bridge over a pond of water lilies.",
+    "imgUrl": "https://main-cdn.sbermegamarket.ru/big1/hlr-system/141/193/873/324/159/600001086574b0.jpg",
+    "authorId": 4
+  },
+  {
+    "title": "Three Musicians",
+    "description": "A bold, colorful Cubist painting by Picasso, representing a surreal trio.",
+    "imgUrl": "https://i.pinimg.com/736x/94/8a/23/948a2395c8f53a421a1ce770245bb011.jpg",
+    "authorId": 5
+  },
+  {
+    "title": "Weeping Woman",
+    "description": "An emotionally charged portrait by Picasso, exploring themes of pain and grief.",
+    "imgUrl": "https://avatars.mds.yandex.net/i?id=b735d5ccfff876eb96f9aeecccb400a5943a40ca-9103674-images-thumbs&n=13",
+    "authorId": 5
+  },
+  {
     "title": "Guernica",
     "description": "Pablo Picasso's large-scale mural that depicts the horrors of war with a striking and chaotic composition.",
     "imgUrl": "https://upload.wikimedia.org/wikipedia/en/7/74/PicassoGuernica.jpg",
@@ -66,10 +126,34 @@
     "authorId": 6
   },
   {
+    "title": "Pietà",
+    "description": "Michelangelo's marble sculpture of the Virgin Mary mourning over the body of Jesus, exemplifying his sculptural mastery.",
+    "imgUrl": "https://cdn.culture.ru/images/4f892f00-3969-5229-adec-e8e1f675ed05",
+    "authorId": 6
+  },
+  {
+    "title": "The Last Judgment",
+    "description": "A fresco in the Sistine Chapel by Michelangelo, depicting the second coming of Christ and the final judgment.",
+    "imgUrl": "https://avatars.mds.yandex.net/i?id=61cc30589c6e989c4ed1ca86e3ba29cb3850cc45-5147471-images-thumbs&n=13",
+    "authorId": 6
+  },
+  {
     "title": "David",
     "description": "Michelangelo's iconic marble sculpture, representing the biblical hero David in perfect Renaissance proportions.",
     "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/David_Art_Wales_in_his_Darlinghurst_studio.jpg/440px-David_Art_Wales_in_his_Darlinghurst_studio.jpg",
     "authorId": 6
+  },
+  {
+    "title": "Dream Caused by the Flight of a Bee",
+    "description": "A surreal depiction of a dreamlike scene by Salvador Dalí, with vivid and imaginative imagery.",
+    "imgUrl": "https://upload.wikimedia.org/wikipedia/en/d/df/Dream_Caused_by_the_Flight_of_a_Bumblebee_around_a_Pomegranate_a_Second_Before_Awakening.jpg",
+    "authorId": 7
+  },
+  {
+    "title": "The Elephants",
+    "description": "A surreal painting featuring elephants with elongated legs, showcasing Dalí's unique visual style.",
+    "imgUrl": "https://i.pinimg.com/originals/e6/c8/b6/e6c8b63fbe867ae8f266c7af0d0fb847.jpg",
+    "authorId": 7
   },
   {
     "title": "The Persistence of Memory",
@@ -87,6 +171,18 @@
     "title": "The Night Watch",
     "description": "A monumental group portrait by Rembrandt, known for its dramatic use of light and shadow.",
     "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/The_Night_Watch_-_HD.jpg/760px-The_Night_Watch_-_HD.jpg",
+    "authorId": 8
+  },
+  {
+    "title": "Bathsheba at Her Bath",
+    "description": "A deeply emotional painting by Rembrandt, exploring human vulnerability and beauty.",
+    "imgUrl": "https://www.vidanuevadigital.com/wp-content/uploads/2020/02/07_Bethsabe.jpg",
+    "authorId": 8
+  },
+  {
+    "title": "The Jewish Bride",
+    "description": "A tender and intimate double portrait, highlighting Rembrandt's skill in capturing human relationships.",
+    "imgUrl": "https://avatars.mds.yandex.net/i?id=2dbda71d04c24f02c3cd20764a957904528708ca1369ceb2-12922404-images-thumbs&n=13",
     "authorId": 8
   },
   {

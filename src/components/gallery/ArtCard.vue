@@ -9,19 +9,18 @@ const props = defineProps<Props>();
 
 <template>
   <div
-    class="relative group mb-3 cursor-pointer"
+    class="relative group cursor-pointer active:scale-100 hover:scale-[1.02] transition-transform"
   >
     <img :src='props.imgUrl' class="relative group-hover:brightness-105 bg-stone-100 z-10 transition-all"></img>
     <div
-      class="absolute duration-200 inset-0 group-hover:-inset-2 group-hover:-bottom-6 opacity-0 group-hover:opacity-100 bg-stone-700/10 transition-all"
+      class="absolute duration-200 inset-0 group-hover:-inset-2 opacity-0 group-hover:opacity-100 bg-stone-700/10 transition-all"
     ></div>
-    <span
-      class="absolute -bottom-5 text-sm text-neutral/50 z-10 group-hover:text-neutral transition-colors"
-      >{{ props.title }}</span
-    >
-    <span
-      class="absolute -bottom-5 right-0 text-xs opacity-0 group-hover:opacity-50 text-neutral/25 z-10 group-hover:text-neutral transition-all"
-      >Подробнее -></span
-    >
+    <div class='relative flex justify-between -mt-0.5 text-sm z-10'>
+      <span
+        class="flex text-neutral/50 group-hover:text-neutral transition-colors"
+        >{{ props.title }}</span
+      >
+      <span class='text-neutral/50 font-bold opacity-0 group-hover:opacity-100 group-hover:translate-y-2 transition-all'>→</span>
+    </div>
   </div>
 </template>
