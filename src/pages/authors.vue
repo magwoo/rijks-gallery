@@ -17,6 +17,14 @@ watch(filters, () => {
   authors.value = sourceAuthors.filter((a) => {
     return a.name.toLowerCase().includes(filters.value.search.toLowerCase());
   });
+
+  if (filters.value.filter == "По именам") {
+    authors.value = authors.value.sort((a, b) => a.name.localeCompare(b.name));
+  } else {
+    authors.value = authors.value.sort((a, b) =>
+      a.lifeYears.localeCompare(b.lifeYears)
+    );
+  }
 });
 </script>
 

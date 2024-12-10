@@ -8,7 +8,7 @@ interface Model {
   filter: string;
 }
 
-const filterTypes = ["По годам", "По Именам"];
+const filterTypes = ["По годам", "По именам"];
 
 const filterType = ref<string>(filterTypes[0]);
 const groups = ref<string[]>([]);

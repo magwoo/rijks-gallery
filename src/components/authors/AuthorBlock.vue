@@ -2,7 +2,7 @@
 import UButton from "../UButton.vue";
 
 interface Props {
-  id: number;
+  id: string;
   fullName: string;
   previewUrl: string;
   century: string;
