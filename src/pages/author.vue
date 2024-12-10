@@ -4,6 +4,7 @@ import Authors from "@/assets/authors.json";
 import Arts from "@/assets/arts.json";
 import Gallery from "@/components/gallery/Gallery.vue";
 import { onMounted } from "vue";
+import UFooter from "@/components/UFooter.vue";
 
 interface Props {
   id: string;
@@ -35,4 +36,5 @@ onMounted(() => window.scrollTo(0, 0));
     </div>
   </div>
   <Gallery :items="arts" />
+  <UFooter />
 </template>

@@ -5,6 +5,7 @@ import Filters from "@/components/authors/Filters.vue";
 import { ref, watch } from "vue";
 import Authors from "@/assets/authors.json";
 import Arts from "@/assets/arts.json";
+import UFooter from "@/components/UFooter.vue";
 
 const sourceAuthors = Authors;
 const artUrls = Arts;
@@ -34,4 +35,5 @@ watch(filters, () => {
       "
     />
   </section>
+  <UFooter />
 </template>

@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import UFooter from "@/components/UFooter.vue";
 import UHeader from "@/components/UHeader.vue";
 import HomeBlock from "@/components/home/HomeBlock.vue";
 
@@ -37,4 +38,5 @@ const images = [
     img-height="Big"
     :images="images"
   />
+  <UFooter />
 </template>

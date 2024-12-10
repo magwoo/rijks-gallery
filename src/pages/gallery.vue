@@ -4,6 +4,7 @@ import Arts from "@/assets/arts.json";
 import { ref, watch } from "vue";
 import UNav from "@/components/UNav.vue";
 import Gallery from "@/components/gallery/Gallery.vue";
+import UFooter from "@/components/UFooter.vue";
 
 const sourceArts = Arts;
 
@@ -24,4 +25,5 @@ watch(filters, () => {
     <Filters v-model="filters" />
     <Gallery :items="arts" />
   </section>
+  <UFooter />
 </template>
