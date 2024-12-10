@@ -24,7 +24,9 @@ const { currentAuth } = useAuthState();
     @open-auth="isAuthOpen = true"
     :title="props.title"
   />
-  <section class="flex flex-col gap-4 w-full">
+  <section
+    class="fixed top-0 left-0 right-0 px-4 pt-2 z-20 bg-background/75 lg:p-0 backdrop-blur-md lg:relative flex flex-col gap-4 w-full"
+  >
     <nav class="flex items-center justify-between w-full">
       <div class="hidden lg:flex gap-8">
         <ULink to="/">Главная</ULink>
