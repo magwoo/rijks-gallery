@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": "1",
     "name": "Johannes Vermeer",
     "description": "Голландский художник, мастер жанровой живописи эпохи барокко, известен своими работами с эффектом света и реалистичной передачей деталей.",
     "imgUrl": "https://avatars.mds.yandex.net/get-entity_search/34196/95804175/SUx182_2x",
@@ -9,7 +9,7 @@
     "country": "Нидерланды"
   },
   {
-    "id": 2,
+    "id": "2",
     "name": "Leonardo da Vinci",
     "description": "Выдающийся итальянский художник эпохи Возрождения, известный картинами «Мона Лиза» и «Тайная вечеря», а также многочисленными изобретениями.",
     "imgUrl": "https://avatars.mds.yandex.net/get-entity_search/2069560/1037756301/SUx182_2x",
@@ -18,7 +18,7 @@
     "country": "Италия"
   },
   {
-    "id": 3,
+    "id": "3",
     "name": "Vincent van Gogh",
     "description": "Голландский постимпрессионист, чьи яркие и эмоциональные картины, такие как «Звёздная ночь», оставили значительный след в искусстве.",
     "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Zelfportret_-_s0097V1962v_-_Van_Gogh_Museum.jpg/640px-Zelfportret_-_s0097V1962v_-_Van_Gogh_Museum.jpg",
@@ -27,7 +27,7 @@
     "country": "Нидерланды"
   },
   {
-    "id": 4,
+    "id": "4",
     "name": "Claude Monet",
     "description": "Французский художник и основоположник импрессионизма, знаменит своими пейзажами и сериями картин, такими как «Кувшинки».",
     "imgUrl": "https://avatars.mds.yandex.net/i?id=2e1fe12505209a26caeea6d1f46e57e6_l-5277647-images-thumbs&n=13",
@@ -36,7 +36,7 @@
     "country": "Франция"
   },
   {
-    "id": 5,
+    "id": "5",
     "name": "Pablo Picasso",
     "description": "Испанский художник, один из основателей кубизма, известен своими картинами «Герника» и «Авиньонские девицы».",
     "imgUrl": "https://i.pinimg.com/736x/13/72/9b/13729b5e6f0a4aa501f473cbee88e1a5.jpg",
@@ -45,7 +45,7 @@
     "country": "Испания"
   },
   {
-    "id": 6,
+    "id": "6",
     "name": "Michelangelo Buonarroti",
     "description": "Итальянский скульптор, художник и архитектор эпохи Возрождения, создатель росписей Сикстинской капеллы.",
     "imgUrl": "https://cdn.culture.ru/images/0e978047-6798-531c-bff4-8d13918ca85e",
@@ -54,7 +54,7 @@
     "country": "Италия"
   },
   {
-    "id": 7,
+    "id": "7",
     "name": "Salvador Dalí",
     "description": "Испанский сюрреалистический художник, известный своими странными и захватывающими воображение образами, такими как «Постоянство памяти».",
     "imgUrl": "https://n1s1.hsmedia.ru/14/e8/35/14e835930b8e8a90fa989c32c191f191/728x573_1_032e5b22729591f09cb312932aac2aab@1200x945_0xac120003_8933616171615832251.jpg",
@@ -63,7 +63,7 @@
     "country": "Испания"
   },
   {
-    "id": 8,
+    "id": "8",
     "name": "Rembrandt van Rijn",
     "description": "Голландский художник эпохи барокко, мастер света и тени, известен портретами и историческими сценами.",
     "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/WLA_metmuseum_Rembrandt_Self-portrait_1660.jpg/800px-WLA_metmuseum_Rembrandt_Self-portrait_1660.jpg",

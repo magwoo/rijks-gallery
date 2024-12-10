@@ -1,194 +1,226 @@
 [
   {
+    "id": "1",
     "title": "The Milkmaid",
     "description": "A maidservant pours milk, entirely absorbed in her work. Except for the stream of milk, everything else is still. Vermeer took this simple everyday activity and made it the subject of an impressive painting – the woman stands like a statue in the brightly lit room. Vermeer also had an eye for how light by means of hundreds of colourful dots plays over the surface of objects.",
     "imgUrl": "https://iiif.micr.io/QkOGy/39,43,4541,5040/%5E1024,/0/default.webp",
-    "authorId": 1
+    "authorId": "1"
   },
   {
+    "id": "2",
     "title": "View of Delft",
     "description": "A serene cityscape by Vermeer, showcasing his mastery of light and color in an outdoor setting.",
     "imgUrl": "https://avatars.mds.yandex.net/get-entity_search/69916/120498521/SUx182_2x",
-    "authorId": 1
+    "authorId": "1"
   },
   {
+    "id": "3",
     "title": "The Allegory of Painting",
     "description": "A symbolic depiction of an artist in his studio, believed to be one of Vermeer's most intricate works.",
     "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Jan_Vermeer_-_The_Art_of_Painting_-_Google_Art_Project.jpg/500px-Jan_Vermeer_-_The_Art_of_Painting_-_Google_Art_Project.jpg",
-    "authorId": 1
+    "authorId": "1"
   },
   {
+    "id": "4",
     "title": "Girl with a Pearl Earring",
     "description": "One of Vermeer's most famous works, depicting a girl with an enigmatic expression, wearing a striking pearl earring.",
     "imgUrl": "https://avatars.mds.yandex.net/i?id=f30769b9137cd9c0e9f7648b128a7e41_l-4343199-images-thumbs&n=13",
-    "authorId": 1
+    "authorId": "1"
   },
   {
+    "id": "5",
     "title": "Vitruvian Man",
     "description": "A study of human anatomy and proportion by Leonardo da Vinci, combining art and science.",
     "imgUrl": "https://avatars.mds.yandex.net/i?id=38ace23345ca073e114faf77f1b364dd_l-5617472-images-thumbs&n=13",
-    "authorId": 2
+    "authorId": "2"
   },
   {
+    "id": "6",
     "title": "Lady with an Ermine",
     "description": "A portrait of Cecilia Gallerani, exemplifying Leonardo's ability to capture personality and grace.",
     "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Leonardo_da_Vinci_046.jpg/548px-Leonardo_da_Vinci_046.jpg",
-    "authorId": 2
+    "authorId": "2"
   },
   {
+    "id": "7",
     "title": "Mona Lisa",
     "description": "Leonardo da Vinci's masterpiece, a portrait of a woman with a mysterious smile, known for its intricate detail and atmospheric background.",
     "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/540px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
-    "authorId": 2
+    "authorId": "2"
   },
   {
+    "id": "8",
     "title": "The Last Supper",
     "description": "A depiction of Jesus and his disciples during the Last Supper, highlighting Da Vinci's mastery of composition and expression.",
     "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Leonardo_da_Vinci_%281452-1519%29_-_The_Last_Supper_%281495-1498%29.jpg/880px-Leonardo_da_Vinci_%281452-1519%29_-_The_Last_Supper_%281495-1498%29.jpg",
-    "authorId": 2
+    "authorId": "2"
   },
   {
+    "id": "9",
     "title": "Starry Night",
     "description": "One of Van Gogh's most iconic works, illustrating a swirling night sky filled with stars over a quiet village.",
     "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/700px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
-    "authorId": 3
+    "authorId": "3"
   },
   {
+    "id": "10",
     "title": "Irises",
     "description": "A vibrant depiction of blooming irises, showing Van Gogh's fascination with nature's beauty.",
     "imgUrl": "https://avatars.mds.yandex.net/i?id=7c1f320606227df06e004e006c96feba3002c762-3675159-images-thumbs&n=13",
-    "authorId": 3
+    "authorId": "3"
   },
   {
+    "id": "11",
     "title": "Wheatfield with Crows",
     "description": "A dark, emotional painting by Van Gogh, often associated with his struggles.",
     "imgUrl": "https://avatars.mds.yandex.net/i?id=ff3a4587ccdba5a2170c956bced990a8_l-4778614-images-thumbs&n=13",
-    "authorId": 3
+    "authorId": "3"
   },
   {
+    "id": "12",
     "title": "Sunflowers",
     "description": "A vibrant still-life series by Van Gogh, showcasing his love for bold colors and thick brushstrokes.",
     "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Vincent_Willem_van_Gogh_127.jpg/540px-Vincent_Willem_van_Gogh_127.jpg",
-    "authorId": 3
+    "authorId": "3"
   },
   {
+    "id": "13",
     "title": "Water Lilies",
     "description": "Claude Monet's impressionistic masterpiece that captures the play of light and reflection on water.",
     "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Claude_Monet_-_The_Water_Lilies_-_Setting_Sun_-_Google_Art_Project.jpg/800px-Claude_Monet_-_The_Water_Lilies_-_Setting_Sun_-_Google_Art_Project.jpg",
-    "authorId": 4
+    "authorId": "4"
   },
   {
+    "id": "14",
     "title": "Impression, Sunrise",
     "description": "The painting that gave Impressionism its name, depicting a misty morning harbor with a rising sun.",
     "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Monet_-_Impression%2C_Sunrise.jpg/600px-Monet_-_Impression%2C_Sunrise.jpg",
-    "authorId": 4
+    "authorId": "4"
   },
   {
+    "id": "15",
     "title": "Rouen Cathedral Series",
     "description": "A series of paintings by Monet capturing Rouen Cathedral under different light conditions.",
     "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/RouenCathedral_Monet_1894.jpg/500px-RouenCathedral_Monet_1894.jpg",
-    "authorId": 4
+    "authorId": "4"
   },
   {
+    "id": "16",
     "title": "The Japanese Bridge",
     "description": "An iconic view of Monet's garden in Giverny, featuring a delicate bridge over a pond of water lilies.",
     "imgUrl": "https://main-cdn.sbermegamarket.ru/big1/hlr-system/141/193/873/324/159/600001086574b0.jpg",
-    "authorId": 4
+    "authorId": "4"
   },
   {
+    "id": "17",
     "title": "Three Musicians",
     "description": "A bold, colorful Cubist painting by Picasso, representing a surreal trio.",
     "imgUrl": "https://i.pinimg.com/736x/94/8a/23/948a2395c8f53a421a1ce770245bb011.jpg",
-    "authorId": 5
+    "authorId": "5"
   },
   {
+    "id": "18",
     "title": "Weeping Woman",
     "description": "An emotionally charged portrait by Picasso, exploring themes of pain and grief.",
     "imgUrl": "https://avatars.mds.yandex.net/i?id=b735d5ccfff876eb96f9aeecccb400a5943a40ca-9103674-images-thumbs&n=13",
-    "authorId": 5
+    "authorId": "5"
   },
   {
+    "id": "19",
     "title": "Guernica",
     "description": "Pablo Picasso's large-scale mural that depicts the horrors of war with a striking and chaotic composition.",
     "imgUrl": "https://upload.wikimedia.org/wikipedia/en/7/74/PicassoGuernica.jpg",
-    "authorId": 5
+    "authorId": "5"
   },
   {
+    "id": "20",
     "title": "Les Demoiselles d'Avignon",
     "description": "A revolutionary piece by Picasso that broke traditional perspective and launched Cubism.",
     "imgUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Les_Demoiselles_d%27Avignon.jpg/600px-Les_Demoiselles_d%27Avignon.jpg",
-    "authorId": 5
+    "authorId": "5"
   },
   {
+    "id": "21",
     "title": "The Creation of Adam",
     "description": "A section of Michelangelo's Sistine Chapel ceiling fresco, depicting God giving life to Adam.",
     "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Michelangelo_-_Creation_of_Adam_%28cropped%29.jpg/540px-Michelangelo_-_Creation_of_Adam_%28cropped%29.jpg",
-    "authorId": 6
+    "authorId": "6"
   },
   {
+    "id": "22",
     "title": "Pietà",
     "description": "Michelangelo's marble sculpture of the Virgin Mary mourning over the body of Jesus, exemplifying his sculptural mastery.",
     "imgUrl": "https://cdn.culture.ru/images/4f892f00-3969-5229-adec-e8e1f675ed05",
-    "authorId": 6
+    "authorId": "6"
   },
   {
+    "id": "23",
     "title": "The Last Judgment",
     "description": "A fresco in the Sistine Chapel by Michelangelo, depicting the second coming of Christ and the final judgment.",
     "imgUrl": "https://avatars.mds.yandex.net/i?id=61cc30589c6e989c4ed1ca86e3ba29cb3850cc45-5147471-images-thumbs&n=13",
-    "authorId": 6
+    "authorId": "6"
   },
   {
+    "id": "24",
     "title": "David",
     "description": "Michelangelo's iconic marble sculpture, representing the biblical hero David in perfect Renaissance proportions.",
     "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/David_Art_Wales_in_his_Darlinghurst_studio.jpg/440px-David_Art_Wales_in_his_Darlinghurst_studio.jpg",
-    "authorId": 6
+    "authorId": "6"
   },
   {
+    "id": "25",
     "title": "Dream Caused by the Flight of a Bee",
     "description": "A surreal depiction of a dreamlike scene by Salvador Dalí, with vivid and imaginative imagery.",
     "imgUrl": "https://upload.wikimedia.org/wikipedia/en/d/df/Dream_Caused_by_the_Flight_of_a_Bumblebee_around_a_Pomegranate_a_Second_Before_Awakening.jpg",
-    "authorId": 7
+    "authorId": "7"
   },
   {
+    "id": "26",
     "title": "The Elephants",
     "description": "A surreal painting featuring elephants with elongated legs, showcasing Dalí's unique visual style.",
     "imgUrl": "https://i.pinimg.com/originals/e6/c8/b6/e6c8b63fbe867ae8f266c7af0d0fb847.jpg",
-    "authorId": 7
+    "authorId": "7"
   },
   {
+    "id": "27",
     "title": "The Persistence of Memory",
     "description": "Salvador Dalí's surrealistic depiction of melting clocks in a dreamlike landscape.",
     "imgUrl": "https://upload.wikimedia.org/wikipedia/en/d/dd/The_Persistence_of_Memory.jpg",
-    "authorId": 7
+    "authorId": "7"
   },
   {
+    "id": "28",
     "title": "Swans Reflecting Elephants",
     "description": "A surreal painting by Dalí that uses reflections to create a double image of swans and elephants.",
     "imgUrl": "https://upload.wikimedia.org/wikipedia/en/f/f6/Swans_reflecting_elephants.jpg",
-    "authorId": 7
+    "authorId": "7"
   },
   {
+    "id": "29",
     "title": "The Night Watch",
     "description": "A monumental group portrait by Rembrandt, known for its dramatic use of light and shadow.",
     "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/The_Night_Watch_-_HD.jpg/760px-The_Night_Watch_-_HD.jpg",
-    "authorId": 8
+    "authorId": "8"
   },
   {
+    "id": "30",
     "title": "Bathsheba at Her Bath",
     "description": "A deeply emotional painting by Rembrandt, exploring human vulnerability and beauty.",
     "imgUrl": "https://www.vidanuevadigital.com/wp-content/uploads/2020/02/07_Bethsabe.jpg",
-    "authorId": 8
+    "authorId": "8"
   },
   {
+    "id": "31",
     "title": "The Jewish Bride",
     "description": "A tender and intimate double portrait, highlighting Rembrandt's skill in capturing human relationships.",
     "imgUrl": "https://avatars.mds.yandex.net/i?id=2dbda71d04c24f02c3cd20764a957904528708ca1369ceb2-12922404-images-thumbs&n=13",
-    "authorId": 8
+    "authorId": "8"
   },
   {
+    "id": "32",
     "title": "The Anatomy Lesson of Dr. Nicolaes Tulp",
     "description": "A group portrait showcasing Rembrandt's mastery of composition and lighting.",
     "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Rembrandt_-_The_Anatomy_Lesson_of_Dr_Nicolaes_Tulp.jpg/540px-Rembrandt_-_The_Anatomy_Lesson_of_Dr_Nicolaes_Tulp.jpg",
-    "authorId": 8
+    "authorId": "8"
   }
 ]

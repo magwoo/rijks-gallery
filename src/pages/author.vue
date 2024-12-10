@@ -6,7 +6,7 @@ import Gallery from "@/components/gallery/Gallery.vue";
 import { onMounted } from "vue";
 
 interface Props {
-  id: number;
+  id: string;
 }
 
 const props = defineProps<Props>();
@@ -18,7 +18,7 @@ onMounted(() => window.scrollTo(0, 0));
 </script>
 
 <template>
-  <UNav title="Автор" />
+  <UNav :title="author.name" />
   <div class="flex flex-col md:flex-row w-full gap-4">
     <img
       :src="author.imgUrl"

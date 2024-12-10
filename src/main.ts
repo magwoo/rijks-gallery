@@ -14,6 +14,11 @@ const router = createRouter({
       component: () => import("./pages/author.vue"),
       props: true,
     },
+    {
+      path: "/gallery/:id",
+      component: () => import("./pages/art.vue"),
+      props: true,
+    },
     { path: "/profile", component: () => import("./pages/profile.vue") },
   ],
 });

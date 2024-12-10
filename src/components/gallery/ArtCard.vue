@@ -1,5 +1,6 @@
 <script setup lang="ts">
 interface Props {
+  id: string;
   imgUrl: string;
   title: string;
 }
@@ -8,7 +9,8 @@ const props = defineProps<Props>();
 </script>
 
 <template>
-  <div
+  <RouterLink
+    :to='`/gallery/${props.id}`'
     class="relative group cursor-pointer active:scale-100 hover:scale-[1.02] transition-transform"
   >
     <img :src='props.imgUrl' class="relative group-hover:brightness-105 bg-stone-100 z-10 w-full transition"></img>
@@ -22,5 +24,5 @@ const props = defineProps<Props>();
       >
       <span class='text-neutral/50 font-bold opacity-0 group-hover:opacity-100 group-hover:translate-y-2 transition'>→</span>
     </div>
-  </div>
+  </RouterLink>
 </template>

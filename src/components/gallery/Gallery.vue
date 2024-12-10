@@ -3,6 +3,7 @@ import { onMounted, ref } from "vue";
 import ArtCard from "./ArtCard.vue";
 
 interface GalleryItem {
+  id: string;
   title: string;
   imgUrl: string;
 }
@@ -34,6 +35,7 @@ onMounted(() => {
     <div v-for="n in gridColsNum" class="flex flex-col gap-6">
       <ArtCard
         v-for="item in props.items.filter((_, i) => (i % gridColsNum) + 1 == n)"
+        :id="item.id"
         :title="item.title"
         :img-url="item.imgUrl"
       />
