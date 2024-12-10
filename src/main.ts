@@ -9,6 +9,11 @@ const router = createRouter({
     { path: "/", component: () => import("./pages/index.vue") },
     { path: "/gallery", component: () => import("./pages/gallery.vue") },
     { path: "/authors", component: () => import("./pages/authors.vue") },
+    {
+      path: "/authors/:id",
+      component: () => import("./pages/author.vue"),
+      props: true,
+    },
     { path: "/profile", component: () => import("./pages/profile.vue") },
   ],
 });

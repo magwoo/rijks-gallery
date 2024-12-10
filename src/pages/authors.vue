@@ -25,6 +25,7 @@ watch(filters, () => {
     <Filters v-model="filters" />
     <AuthorBlock
       v-for="author in authors"
+      :id="author.id"
       :full-name="author.name"
       :preview-url="author.imgUrl"
       :century="author.century"

@@ -2,6 +2,7 @@
 import UButton from "../UButton.vue";
 
 interface Props {
+  id: number;
   fullName: string;
   previewUrl: string;
   century: string;
@@ -12,10 +13,14 @@ const props = defineProps<Props>();
 </script>
 
 <template>
-  <section class="flex-col w-full max-w-[400px] lg:max-w-full">
-    <span class="text-2xl font-playfair text-neutral/75 font-semibold">{{
-      props.fullName
-    }}</span>
+  <section class="relative flex-col w-full max-w-[400px] lg:max-w-full">
+    <RouterLink :to='`/authors/${props.id}`' class='absolute inset-0 flex lg:hidden' />
+    <div class='flex justify-between w-full items-center'>
+      <span class="text-2xl font-playfair text-neutral/75 font-semibold">{{
+        props.fullName
+      }}</span>
+      <span class="flex lg:hidden text-neutral/50 font-semibold">--></span>
+    </div>
     <div class="flex gap-6 overflow-clip h-60 lg:h-80">
       <img
         :src="props.previewUrl"
@@ -45,7 +50,7 @@ const props = defineProps<Props>();
               <span class="text-lg mb-1">работы</span></span
             >
           </div>
-          <UButton type="primary" class-name="size-24 text-2xl">></UButton>
+          <RouterLink :to='`/authors/${props.id}`'><UButton type="primary" class-name="size-24 text-2xl">></UButton></RouterLink>
         </div>
       </div>
     </div>
