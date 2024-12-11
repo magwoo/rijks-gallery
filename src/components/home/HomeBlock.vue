@@ -3,7 +3,6 @@ type ImageSize = "Base" | "Big";
 
 interface Image {
   name: string;
-  link: string;
   imgUrl: string;
 }
 
@@ -28,9 +27,13 @@ function computeImageClass(index: number): string {
   }
 
   if (index === 0) {
-    className += props.isEven ? "rounded-tl-[50%] " : "rounded-bl-[50%] ";
+    className += props.isEven
+      ? "rounded-tl-[160px] lg:rounded-tl-[200px] "
+      : "rounded-bl-[160px] lg:rounded-bl-[200px] ";
   } else if (index === props.images.length - 1) {
-    className += props.isEven ? "rounded-br-[50%] " : "rounded-tr-[50%] ";
+    className += props.isEven
+      ? "rounded-br-[160px] lg:rounded-br-[200px] "
+      : "rounded-tr-[160px] lg:rounded-tr-[200px] ";
   }
 
   return className;
@@ -38,7 +41,7 @@ function computeImageClass(index: number): string {
 </script>
 
 <template>
-  <section class="flex flex-col gap-8 w-full">
+  <section class="flex flex-col gap-8 w-full mb-8">
     <div class="flex flex-col lg:flex-row w-full lg:items-end gap-2">
       <h1
         class="lg:text-7xl text-5xl font-playfair font-bold text-accent lg:w-1/2"
@@ -52,26 +55,21 @@ function computeImageClass(index: number): string {
       </p>
     </div>
     <div class="relative flex w-full gap-8">
-      <a
+      <div
         v-for="(image, index) in props.images"
-        :href="image.link"
         :class="{ 'hidden lg:flex': index == 1, flex: index != 1 }"
-        class="group grow flex flex-col gap-2 lg:gap-4 items-center"
+        class="group w-1/2 lg:w-1/3 flex flex-col gap-2 lg:gap-4 items-center"
       >
         <img
-          class="object-cover"
+          class="object-cover w-full"
           :class="computeImageClass(index)"
           :src="image.imgUrl"
           alt="изображение"
         />
-        <h3 class="font-playfair text-lg lg:text-2xl font-semibold">
+        <h3 class="font-playfair text-lg lg:text-2xl font-semibold text-center">
           {{ image.name }}
         </h3>
-        <span
-          class="text-neutral/50 text-sm lg:text-base font-medium group-hover:text-neutral group-hover:underline transition-colors"
-          >Подробнее →</span
-        >
-      </a>
+      </div>
       <div
         class="absolute -right-4 lg:-right-10 flex h-full items-center pb-24"
       >
